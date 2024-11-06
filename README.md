@@ -5,10 +5,10 @@ In this group project, your team will put together the things we've learned over
 Goals for this assignment:
 - Apply the web application concepts we've learned over the course of the semester
 - Get practice collaborating on a project in a team context
-- Build a web application of a topic of your chocie
+- Build a web application of a topic of your choice
 
 There are 3 deliverables for the final project:
-- Design document, to be submitted via the `README.md` file in the `design/` directory 
+- Design document, to be added the `README.md` file in the `design/` directory 
 - Code for the web application described in the document and, in the `server/` directory 
 - In-class presentation featuring your project 
 
@@ -21,12 +21,11 @@ The topic of the website is up to you. Since this is a group project, I suggest 
 
 Your project must include these requirements:
 - Frontend
-    - 2 or more distinct HTML pages. They should be fully sytled with CSS.
-    - at least 1 page that uses EJS to render HTML and CSS. This can be one of the two in the above bullet points
+    - 2 or more distinct HTML pages fully styled with CSS
+    - at least 1 page that render swith EJS; this can be one of the two in the above bullet points
 - Backend
     - a Node.js/Express.js server that serves frontend static files
     - implementation of REST-style API endpoints for creating, editing, and deleting resource(s) (POST, PATCH, DELETE)
-    - separation of model, view, and controller
 - Database
     - a Railway-hosted postgres database
     - a schema with 2 or more models
@@ -64,8 +63,6 @@ Your design document should include the following:
 
 - Bonus: Wireframes and Entity Relationship Diagram*
 
-    As these are bonus items, you will have to do some research to understand how to complete these bullet points.
-
     - Wireframes for your frontend pages. 
     
         A wireframe is a visual diagram that outlines the structure and layout of a website, app, or other digital product. 
@@ -82,7 +79,7 @@ Your design document should include the following:
 
 
 
-## Section 2: Implementation - Due date: Fri Nov 13 - 11:59PM
+## Section 2: Implementation - Due date: Fri Dec 13 - 11:59PM
 
 Include the code in the `server/` directory. I should be able to start your server with our usual start up commands, and visit your webiste on `localhost:3000`. If you choose to deploy the site to a public URL, include the URL in `server/README.md`.
 
@@ -93,7 +90,7 @@ From within the `server/` directory, I should be able to run:
 > npm start
 ```
 
-## Section 3: Final Presentation - Due date: Tues Nov 10 or Thurs Nov 12
+## Section 3: Final Presentation - Due date: Tues Dec 10 or Dec Nov 12
 
 Your group will give a presentation on your final project during the last week of class. You must be present at the final presetnation to recieve a grade. If you cannot attend for whatever reason, please let me know so we can see if other arrangements are possible.
 
@@ -119,14 +116,15 @@ The due date for the code is Friday of that week, so you will present before you
 
 Total Points: 120
 
-Bonus: 10
+Bonus: 10, marked with *
 
 
-| Team Set Up & Design Document | 15 |
+| Team Set Up & Design Document | 20 |
 |---|---|
 | Teammate submission | 5 
 | Project topic description |	5
 | Feature list | 5
+| Proper use of branches and PRs | 5
 | Wireframes & ERD | 0-5*
 
 | Code and Implementation | 70 |
